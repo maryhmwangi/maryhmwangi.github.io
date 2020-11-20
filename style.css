@@ -29,6 +29,12 @@ body, html{
 }
 
 
+@media screen and (max-width: 1024px){
+	.logo{
+	  width: 30%;
+	}
+}
+
 @media screen and (max-width: 676px){
 	.logo{
 	  width: 40%;
@@ -48,6 +54,11 @@ img.logo__image {
 	width: 80%;
 }
 
+@media screen and (max-width: 1024px){
+	.content{
+	  width: 70%;
+	}
+}
 @media screen and (max-width: 676px){
 	.content{
 	  width: 60%;
@@ -72,7 +83,7 @@ img.logo__image {
 }
 
 @media screen and (max-width: 676px){
-	
+
 	.contact-list{
 	    margin-left: -20px;
 	}
